@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{5482162C-B22E-4FCD-AFEA-42EECA40795F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateAccess", "DateAccess\DateAccess.csproj", "{E000052D-C401-4FD6-9479-DDE45A03B63F}"
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BBSProject20150302", "http://localhost:55878", "{2085AF4F-1A6C-4599-A294-FB1B1298ED4D}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
@@ -30,6 +28,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BBSProject20150302", "http:
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{216F7ED4-068B-4729-B6CF-F4D8FC725FA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,14 +40,14 @@ Global
 		{5482162C-B22E-4FCD-AFEA-42EECA40795F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5482162C-B22E-4FCD-AFEA-42EECA40795F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5482162C-B22E-4FCD-AFEA-42EECA40795F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E000052D-C401-4FD6-9479-DDE45A03B63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E000052D-C401-4FD6-9479-DDE45A03B63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E000052D-C401-4FD6-9479-DDE45A03B63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E000052D-C401-4FD6-9479-DDE45A03B63F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2085AF4F-1A6C-4599-A294-FB1B1298ED4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2085AF4F-1A6C-4599-A294-FB1B1298ED4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2085AF4F-1A6C-4599-A294-FB1B1298ED4D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{2085AF4F-1A6C-4599-A294-FB1B1298ED4D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{216F7ED4-068B-4729-B6CF-F4D8FC725FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216F7ED4-068B-4729-B6CF-F4D8FC725FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216F7ED4-068B-4729-B6CF-F4D8FC725FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216F7ED4-068B-4729-B6CF-F4D8FC725FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
